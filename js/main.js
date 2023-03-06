@@ -16,6 +16,7 @@ easy.addEventListener("click", function () {
     hard.classList.remove("selected");
     numc1 = 3;
     color = generateRandomcolor(numc1);
+    header.style.background = "rgb(125, 125, 223)";
     picker = colorPicker();
     rgbclass.textContent = picker;
     for (var i = 0; i <= c1.length; i++) {
@@ -31,6 +32,7 @@ hard.addEventListener("click", function () {
     hard.classList.add("selected");
     numc1 = 6;
     color = generateRandomcolor(numc1);
+    header.style.background = "rgb(125, 125, 223)";
     picker = colorPicker();
     rgbclass.textContent = picker;
     for (var i = 0; i <= c1.length; i++) {
